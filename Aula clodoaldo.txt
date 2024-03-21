@@ -1,0 +1,46 @@
+//Exercício 1
+
+#include <stdio.h>
+
+int main() {
+    int total,resultado, num1, num2;
+    printf("Digite o valor :");
+    scanf ("%d", &num1);
+    printf("Digite o valor 2:");
+    scanf ("%d", &num2);
+    total = num1+num2;
+    printf ("A média dos dois valores digitados é: %d",resultado);
+
+
+    return 0;
+}
+
+//Exercício 2
+
+#include <stdio.h>
+
+int main() {
+    int total, num1;
+    printf("Digite o valor 1:");
+    scanf ("%d", &num1);
+    total = num1*num1;
+    printf ("A a área do quadrado é: %d",total);
+
+
+    return 0;
+}
+
+//Exercício 3 
+
+#include <stdio.h>
+
+int main() {
+    int total,idade1;
+    printf("Digite a sua idade :");
+    scanf ("%d", &idade1);
+    total = 2024-idade1;
+    printf ("O ano que você nasceu é: %d",total);
+
+
+    return 0;
+}
